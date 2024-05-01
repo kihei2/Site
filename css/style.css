@@ -18,6 +18,8 @@ main {
     padding: 11px;
 }
 .redes-sociais ul li {
+    position: relative;
+    margin-left: 10px;
     display: inline-block;
     float:left
 }
