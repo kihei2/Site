@@ -103,4 +103,12 @@ main {
 .entrar p:hover {
     color: grey;
 }
+.col-100 {
+    width: 100%;
+    float: left;
+    position:relative;
+}
+.background img {
+    filter: brightness(50%)
+}
 
