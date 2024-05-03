@@ -108,9 +108,8 @@ main {
 .entrar p:hover {
     color: grey;
 }
-.slider-principal img {
-    border: none;
-}
-.background img{
+.background {
     width: 100%;
+    height: 717px;
+    background: linear-gradient( rgba(4, 9, 30, 0.7), #0b1528 94%),url(../img/bgcopy.png);
 }
