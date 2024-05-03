@@ -1,6 +1,7 @@
 body {
     padding:0px;
     margin: 0px;
+    background-color: #0b1528;
 }
 .menu-principal {
     width: 100%;
@@ -113,3 +114,17 @@ main {
     height: 717px;
     background: linear-gradient( rgba(4, 9, 30, 0.7), #0b1528 94%),url(../img/bgcopy.png);
 }
+.texto-boas-vindas {
+    margin-top: -367px;
+    margin-left: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+.texto-boas-vindas h1 {
+    font-size: 40px;
+}
+.texto-boas-vindas p {
+    font-size: 15px;
+}
+
+
