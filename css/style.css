@@ -100,6 +100,7 @@ main {
     width:fit-content;
     float: right;
     margin-right: 60px;
+    margin-top: -3px;
 }
 .entrar p {
     color: white;
@@ -158,6 +159,14 @@ main {
     display: block;
     border-radius: 10px;
 }
+.album-cover {
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+.album-cover:hover {
+    transform: scale(1.2);
+    z-index:2;
+}
 .artistas {
     font-family: "Lucida Console";
     color:white;
@@ -171,13 +180,41 @@ main {
     grid-template-rows: repeat(2, 165px);
     gap: 10px;
 }
+.container-artists div img {
+    display: block;
+    border-radius: 10px;
+}
 .item1 {
     grid-row: span 2;
     grid-column: span 2;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+.item1:hover {
+    transform: scale(1.2);
+    z-index:2;
 }
 .item2, .item3, .item4, .item5 {
     width: 165px;
     height: 165px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+.item2:hover {
+    transform: scale(1.2);
+    z-index:2;
+}
+.item3:hover {
+    transform: scale(1.2);
+    z-index:2;
+}
+.item4:hover {
+    transform: scale(1.2);
+    z-index:2;
+}
+.item5:hover {
+    transform: scale(1.2);
+    z-index:2;
 }
 .listas {
     font-family: "Lucida Console";
@@ -261,6 +298,10 @@ main {
     margin-left: 1225px;
     position: absolute;
     margin-top: -188px;
+}
+.container-lista-1 div img, .container-lista-2 div img, .container-lista-3 div img {
+    display: block;
+    border-radius: 10px;
 }
 
 
