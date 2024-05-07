@@ -32,9 +32,10 @@ main {
 }
 .name p {
     color: white;
-    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
     position: relative;
-    margin-left: -5px;
+    margin-left: 20px;
     padding: 1px;
     display: flex;
     float:right;
@@ -178,17 +179,40 @@ main {
     width: 165px;
     height: 165px;
 }
-
-
-
-.container-lista {
+.listas {
+    font-family: "Lucida Console";
+    color:white;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 1226px;
+    margin-top: -693px;
+    width: fit-content;
+    height: fit-content;
+}
+.container-lista-1 {
   position:relative;
   height: 300px;
   width: 600px;
-  top: -630px;
+  top: 0px;
   left: 1225px;
   display: flex;
 }
+.container-lista-2 {
+    position:relative;
+    height: 300px;
+    width: 600px;
+    top: -11px;
+    left: 1225px;
+    display: flex;
+  }
+.container-lista-3 {
+    position:relative;
+    height: 300px;
+    width: 600px;
+    top: -15px;
+    left: 1225px;
+    display: flex;
+  }
 .card {
   display: flex;
   height: 165px;
@@ -215,14 +239,6 @@ main {
   position: relative;
   left: 50px;
   transition: 0.4s ease-out;
-}
-
-.title-lista{
-  color: white;
-  font-weight: 300;
-  position: absolute;
-  left: 20px;
-  top: 15px;
 }
 
 
