@@ -61,17 +61,19 @@ main {
 .menu ul li a:hover {
     color: grey;
 }
-/*.redes-sociais ul li {
+.redes-sociais ul li {
     position: relative;
-    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
-    float:left;
+    bottom: 10px;
+    float: left;
+}
 }
 .redes-sociais {
     width:fit-content;
-    float: right;
+    float: left;
     margin-right: 10px;
-}*/
+}
 .pesquisa {
     padding: 15px;
 }
