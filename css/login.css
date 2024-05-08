@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Lucida Console";
 }
 body:before {
     content: '';
@@ -14,21 +15,11 @@ body:before {
     background-size: cover;
     box-shadow: 0 0 30px 30px rgb(0, 0, 0);
     filter: blur(10px);
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px)
-    
-    
-    
-
 }
 .login-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     width: 400px;
     height: 500px;
