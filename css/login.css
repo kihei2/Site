@@ -2,6 +2,25 @@ body {
     margin: 0;
     padding: 0;
 }
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/login-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 0 30px 30px rgb(0, 0, 0);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px)
+    
+    
+    
+
+}
 .login-text {
     position: absolute;
     top: 50%;
@@ -46,7 +65,7 @@ body {
     height: 30px;
     color: #fff;
     font-size: 15px;
-    background: red;
+    background: #4cc0e7;
     cursor: pointer;
     border-radius: 25px;
     border: none;
