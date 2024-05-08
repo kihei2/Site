@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/criar-conta.css">
+    <script src="../js/script.js"></script>
     <title>Criar conta</title>
 </head>
 <body>
@@ -11,13 +12,14 @@
         <h2>Crie sua conta</h2>
         <form action="">
             <p>Usuário</p>
-            <input type="text" placeholder="Crie um usuário">
+            <input type="text" placeholder="Crie um usuário" id="username">
             <p>Email</p>
-            <input type="email" placeholder="Insira seu email">
+            <input type="email" placeholder="Insira seu email" id="email">
             <p>Senha</p>
-            <input type="password" placeholder="Crie uma senha">
-            <input type="submit" value="Entrar">
+            <input type="password" placeholder="Crie uma senha" id="password">
+            <input type="submit" value="Criar conta" onclick="criarconta()">
         </form>
     </div>
+
 </body>
 </html>
