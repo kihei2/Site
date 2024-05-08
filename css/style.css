@@ -101,16 +101,17 @@ main {
     width:fit-content;
     float: right;
     margin-right: 60px;
-    margin-top: -3px;
+    margin-top: -39px;
 }
-.entrar p {
+.entrar a {
     color: white;
     font-size: 15px;
     font-family: "Lucida Console", "Courier New", monospace;
     position: relative;
     margin-top: -35px;
+    text-decoration: none;
 }
-.entrar p:hover {
+.entrar a:hover {
     color: grey;
 }
 .background {
