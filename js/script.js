@@ -7,6 +7,7 @@ function criarconta() {
     localStorage.setItem('email', email)
     localStorage.setItem('password', password)
 }
+
 function auth() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -16,8 +17,12 @@ function auth() {
 
     if (email_certo == email && password_certa == password){
         alert ("Entrou")
+
+        window.location.href = 'index.html'
     }
     else {
         alert("Senha ou email incorreto")
+
     }
+
 }

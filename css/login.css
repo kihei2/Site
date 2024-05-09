@@ -24,7 +24,7 @@ body:before {
     width: 400px;
     height: 500px;
     padding: 80px 40px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0);
 }
 .login-text h2 {
     margin: 0;
@@ -63,4 +63,13 @@ body:before {
     outline: none;
     margin-top: 15%;
     
+}
+.login-text button {
+    padding: 10px 20px;
+    background-image: url(../img/x-icon.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 385px;
 }
