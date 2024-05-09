@@ -16,13 +16,10 @@ function auth() {
     var password_certa = localStorage.getItem("password")
 
     if (email_certo == email && password_certa == password){
-        alert ("Entrou")
-
-        window.location.href = 'index.html'
+        alert ("Está logado!")
     }
     else {
         alert("Senha ou email incorreto")
-
     }
 
 }

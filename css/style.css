@@ -85,6 +85,7 @@ main {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 15px;
     background-color: #23324d;
+    color: white;
     background-image: url('../img/search-icon.png');
     background-repeat: no-repeat;
     background-position: left;
@@ -305,6 +306,10 @@ main {
     display: block;
     border-radius: 10px;
 }
+
+
+
+
 
 
 
